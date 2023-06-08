@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;900&display=swap");
+.parent-footer {
+  background-color: #202221;
+  height: 500px;
+}
+.input-field {
+  display: block;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  appearance: none;
+  color: white;
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+.input-group {
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  left: 5.21%;
+  right: 64.24%;
+  top: 1700px;
+  height: 55px;
+  width: 440px;
+}
+.input-group button {
+  background: #2e302f;
+  letter-spacing: 0.004em;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  border-radius: 15px;
+  color: white;
+  width: 45%;
+  margin: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.signup-text {
+  position: absolute;
+  left: 5.21%;
+  right: 64.24%;
+  top: 1800px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  letter-spacing: 0.008em;
+  width: 440px;
+}
+.signup-button {
+  position: absolute;
+  left: 5.21%;
+  right: 80.9%;
+  top: 1890px;
+  background: #7c5ac7;
+  box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.004em;
+  color: #ffffff;
+  border: 0;
+  height: 60px;
+  width: 200px;
+}
+
+.share-icon {
+  position: absolute;
+  left: 5.21%;
+  right: 91.32%;
+  top: 2000px;
+  width: 444px;
+}
+
+.divider {
+  position: absolute;
+  left: 32.53%;
+  right: 39.08%;
+  top: 1900px;
+  bottom: 88%;
+  opacity: 0.3;
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+}
+.footerlogo {
+  height: 70px;
+  width: 110px;
+}
+.footer-heading {
+  color: #ffffff;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.008em;
+}
+.footer-subheading {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.008em;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 6px 0;
+}
+.fgrid-parent {
+  position: absolute;
+  left: 50%;
+  height: 400px;
+  display: grid;
+  grid-template-areas: "a b ." "c d e" "f j h";
+  margin-top: 42px;
+  max-width: 550px;
+  column-gap: 80px;
+}
+.fgrid-item {
+  display: flex;
+  flex-direction: column;
+}

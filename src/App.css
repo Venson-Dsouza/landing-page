@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+* {
+  font-family: "Lexend", sans-serif;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -26,6 +30,275 @@
 
 .App-link {
   color: #61dafb;
+}
+.navigation-parent {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 900px;
+}
+
+.navigation a {
+  vertical-align: middle;
+  left: 20px;
+  text-decoration: none;
+  color: black;
+  margin-left: 5%;
+}
+
+.nav-buttons {
+  background-image: url("../src/images/Rectangle\ right.png");
+}
+
+.button1 {
+  position: absolute;
+  width: 147px;
+  height: 58px;
+  left: 1070px;
+  top: 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+.button2 {
+  position: absolute;
+  width: 137px;
+  height: 58px;
+  left: 1238px;
+  top: 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  color: #7d59c3;
+  background-color: white;
+}
+
+.text-box {
+  position: absolute;
+  left: 75px;
+  top: 181px;
+}
+.welcome {
+  color: #9e2349;
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.big-text {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 71px;
+  position: absolute;
+  width: 548px;
+  height: 338px;
+  left: 75px;
+  top: 190px;
+}
+.small-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #2f3130;
+  opacity: 0.5;
+  position: absolute;
+  width: 548px;
+  left: 75px;
+  top: 490px;
+}
+.invest-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 9px;
+  position: absolute;
+  width: 271px;
+  height: 60px;
+  left: 75px;
+  top: 600px;
+  background: #7d59c3;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 30px rgba(125, 89, 195, 0.2);
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+}
+.counts {
+  display: flex;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #7c5ac7;
+  width: 548px;
+  left: 75px;
+  top: 730px;
+  justify-content: space-between;
+}
+.counts p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2f3130;
+}
+
+.phone1 {
+  position: absolute;
+  left: 767px;
+  top: 142px;
+  width: 325px;
+  height: 693.33px;
+}
+.phone1hover {
+  position: absolute;
+  width: 400px;
+  height: 285px;
+  left: 712px;
+  top: 340px;
+}
+.phone2 {
+  position: absolute;
+  left: 1074px;
+  top: 142px;
+  width: 325px;
+  height: 693.33px;
+  object-fit: cover;
+  object-position: 40px 0;
+}
+
+.grid-parent {
+  height: 750px;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 440px 440px 440px;
+}
+.grid-item {
+  margin-top: 20%;
+  margin-left: 90px;
+}
+
+.col-title {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #2f3130;
+}
+.col-brief {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #2f3130;
+}
+.about-text {
+  position: absolute;
+  width: 380px;
+  height: 216px;
+  left: 90px;
+  top: 1000px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  color: #2f3130;
+}
+
+.horizontal-line {
+  position: absolute;
+  left: 0;
+  top: 1300px;
+  width: 80%;
+  margin: 0 10%;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(208, 208, 208, 1) 10%,
+    rgba(161, 161, 161, 1) 25%,
+    rgba(60, 60, 60, 1) 40%,
+    rgba(34, 34, 34, 1) 50%,
+    rgba(60, 60, 60, 1) 60%,
+    rgba(161, 161, 161, 1) 75%,
+    rgba(228, 228, 228, 1) 90%,
+    rgba(245, 245, 245, 1) 100%
+  );
+  height: 1px;
+}
+
+.vr-line1 {
+  position: absolute;
+  left: 0;
+  top: 1300px;
+  width: 40%;
+  margin: 0 15%;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(208, 208, 208, 1) 10%,
+    rgba(161, 161, 161, 1) 25%,
+    rgba(60, 60, 60, 1) 40%,
+    rgba(34, 34, 34, 1) 50%,
+    rgba(60, 60, 60, 1) 60%,
+    rgba(161, 161, 161, 1) 75%,
+    rgba(228, 228, 228, 1) 90%,
+    rgba(245, 245, 245, 1) 100%
+  );
+  height: 1px;
+  rotate: 90deg;
+}
+.vr-line2 {
+  position: absolute;
+  right: 0;
+  top: 1300px;
+  width: 40%;
+  margin: 0 15%;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(208, 208, 208, 1) 10%,
+    rgba(161, 161, 161, 1) 25%,
+    rgba(60, 60, 60, 1) 40%,
+    rgba(34, 34, 34, 1) 50%,
+    rgba(60, 60, 60, 1) 60%,
+    rgba(161, 161, 161, 1) 75%,
+    rgba(228, 228, 228, 1) 90%,
+    rgba(245, 245, 245, 1) 100%
+  );
+  height: 1px;
+  rotate: 90deg;
 }
 
 @keyframes App-logo-spin {
